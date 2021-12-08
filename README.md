@@ -15,22 +15,3 @@ Follow these instructions in order. If you make a mistake, start over from the b
 1. Navigate up a directory.
 1. Remove the `notes` directory.
 1. Type the following command: `history | tail -n 12 > cli_history` to print your last 12 actions to the file `cli_history`.
-
-## Rubric
-
-A correct history looks like this:
-
-```
-1   7/13/2021 22:34  touch cli.md
-2   7/13/2021 22:34  nano cli.md
-3   7/13/2021 22:34  cat cli.md
-4   7/13/2021 22:35  mkdir notes
-5   7/13/2021 22:35  cd notes
-6   7/13/2021 22:37  mv ../cli.md .
-7   7/13/2021 22:37  cp cli.md cli-2.md
-8   7/13/2021 22:37  ls
-9   7/13/2021 22:37  rm cli.md
-10  7/13/2021 22:38  mv cli-2.md cli.md
-11  7/13/2021 22:38  cd ..
-12  7/13/2021 22:38  rm -rf notes
-```
